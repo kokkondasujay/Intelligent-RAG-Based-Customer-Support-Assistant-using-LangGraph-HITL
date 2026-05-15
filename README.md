@@ -3,15 +3,45 @@
 ## README.md
 
 ````markdown
+# 🤖 Intelligent RAG-Based Customer Support Assistant using LangGraph & HITL
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-Workflow-orange?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-VectorDB-purple?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red?style=for-the-badge&logo=streamlit)
+![Groq](https://img.shields.io/badge/Groq-LLM-black?style=for-the-badge)
+
+</div>
+
+---
+
+## 📌 Overview
 # Intelligent RAG-Based Customer Support Assistant using LangGraph & HITL
 
-An AI-powered Retrieval-Augmented Generation (RAG) customer support assistant built using LangChain, LangGraph, ChromaDB, and Streamlit.
+An AI-powered Retrieval-Augmented Generation (RAG) customer support assistant built using LangChain, LangGraph, ChromaDB, Groq APIs, and Streamlit.
+
+The system processes PDF knowledge bases, performs semantic retrieval using embeddings, generates contextual responses with LLMs, and supports Human-in-the-Loop (HITL) escalation for complex customer queries.
+
+This project demonstrates:
+- RAG Pipeline Design
+- Vector Databases
+- Graph-Based AI Workflows
+- Human-in-the-Loop Systems
+- LLM Integration
+- AI System Architecture
+- Semantic Search
+- Workflow Orchestration
 
 The system processes PDF knowledge bases, retrieves relevant contextual information using semantic search, and generates intelligent responses using Large Language Models (LLMs). It also supports Human-in-the-Loop (HITL) escalation for complex or low-confidence queries.
 
 ---
 
-# Features
+---
+
+## 🚀 Features
 
 - PDF Knowledge Base Processing
 - Semantic Search using Embeddings
@@ -25,7 +55,9 @@ The system processes PDF knowledge bases, retrieves relevant contextual informat
 
 ---
 
-# Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -40,27 +72,37 @@ The system processes PDF knowledge bases, retrieves relevant contextual informat
 
 ---
 
-# Project Architecture
+---
 
+## 🧠 System Architecture
+
+```text
 User Query
-↓
+    ↓
 Streamlit Frontend
-↓
-LangGraph Workflow
-↓
+    ↓
+LangGraph Workflow Engine
+    ↓
 Retriever
-↓
+    ↓
 ChromaDB Vector Store
-↓
+    ↓
+Semantic Search
+    ↓
 Relevant Chunks
-↓
-LLM Response Generation
-↓
-Answer / HITL Escalation
+    ↓
+Groq LLM
+    ↓
+Answer Generation
+    ↓
+HITL Escalation (if required)
+````
 
 ---
 
-# Folder Structure
+---
+
+## 📂 Project Structure
 
 ```text
 rag-customer-support/
@@ -82,11 +124,13 @@ rag-customer-support/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-````
+```
 
 ---
 
-# Installation
+---
+
+## ⚙️ Installation & Setup
 
 ## Clone Repository
 
@@ -140,7 +184,9 @@ streamlit run streamlit_app.py
 
 ---
 
-# How It Works
+---
+
+## 🔄 Workflow
 
 1. PDF is loaded using PyPDFLoader.
 2. Document is split into chunks.
@@ -154,7 +200,9 @@ streamlit run streamlit_app.py
 
 ---
 
-# Human-in-the-Loop (HITL)
+---
+
+## 👨‍💻 Human-in-the-Loop (HITL)
 
 The system escalates queries when:
 
@@ -165,7 +213,9 @@ The system escalates queries when:
 
 ---
 
-# Future Enhancements
+---
+
+## 📈 Future Enhancements
 
 * Multi-document support
 * Conversational memory
@@ -177,7 +227,9 @@ The system escalates queries when:
 
 ---
 
-# Author
+---
+
+## 👨‍💻 Author
 
 Sujay Kokkonda
 
