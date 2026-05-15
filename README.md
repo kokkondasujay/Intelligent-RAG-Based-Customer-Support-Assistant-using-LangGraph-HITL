@@ -1,8 +1,3 @@
-# Intelligent RAG-Based Customer Support Assistant using LangGraph & HITL
-
-## README.md
-
-````markdown
 # 🤖 Intelligent RAG-Based Customer Support Assistant using LangGraph & HITL
 
 <div align="center">
@@ -16,6 +11,9 @@
 
 </div>
 
+---
+
+## 📌 Overview
 ---
 
 ## 📌 Overview
